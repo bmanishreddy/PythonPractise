@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa720200-63c7-48c7-8279-34fc281b8d8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/setTwoProblem/binarySearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setTwoProblem/binarySearchTreeRecusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setTwoProblem/saveUpdateRetriveUser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JupyterNotebooks/PracticeAlgorithms.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/JupyterNotebooks/PracticeAlgorithms.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setTwoProblem/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/setTwoProblem/binarySearchTree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,7 +43,51 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.binarySearchTreeRecusion">
+    <configuration name="binarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPractise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/setTwoProblem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setTwoProblem/binarySearchTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="binarySearchTreeRecusion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPractise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/setTwoProblem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setTwoProblem/binarySearchTreeRecusion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="linearSearchVersionTwo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binarySearchTreeRecusion" />
+        <item itemvalue="Python.binarySearchTree" />
         <item itemvalue="Python.linearSearchVersionTwo" />
       </list>
     </recent_temporary>
@@ -74,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631856213771</updated>
-      <workItem from="1631856216832" duration="10279000" />
+      <workItem from="1631856216832" duration="14063000" />
     </task>
     <servers />
   </component>
@@ -119,10 +171,26 @@
           <line>7</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setTwoProblem/binarySearchTree.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setTwoProblem/binarySearchTree.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setTwoProblem/binarySearchTree.py</url>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonPractise$linearSearchVersionTwo.coverage" NAME="linearSearchVersionTwo Coverage Results" MODIFIED="1632007686598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setTwoProblem" />
+    <SUITE FILE_PATH="coverage/PythonPractise$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1632097493769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setTwoProblem" />
+    <SUITE FILE_PATH="coverage/PythonPractise$binarySearchTreeRecusion.coverage" NAME="binarySearchTreeRecusion Coverage Results" MODIFIED="1632099133585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setTwoProblem" />
+    <SUITE FILE_PATH="coverage/PythonPractise$linearSearchVersionTwo.coverage" NAME="linearSearchVersionTwo Coverage Results" MODIFIED="1632009760397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setTwoProblem" />
   </component>
 </project>
