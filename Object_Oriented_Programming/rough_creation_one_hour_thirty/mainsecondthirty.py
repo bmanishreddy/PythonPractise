@@ -1,5 +1,9 @@
+import csv
+
 class Item:
     pay_rate = 0.8 #The pay rate after 20% discount,Class level attribute
+
+    all = []
 
     def __init__(self, name: str, price: float, quantitiy = 0):
 
@@ -12,6 +16,8 @@ class Item:
         self.price = price         #instance atribute
         self.quantitiy = quantitiy
         #print(f"Inside constructor: {name}")
+        # Actions to execute
+        Item.all.append(self)
 
     def calculate_total_price(self):
         return self.price*self.quantitiy
@@ -19,21 +25,35 @@ class Item:
     def apply_discount(self):
         self.price = self.price*self.pay_rate
 
+    #creating a class methord
+    @classmethod
+    def instantiate_from_csv(cls):
+        with open('items.csv', 'r') as f:
+            reader = csv.DictReader(f)
+            items = list(reader)
 
-item1 = Item("Phone",100,1)
-
-print(item1.calculate_total_price())
-
-item1.apply_discount()
-print(item1.price)
-
-item2 = Item("Laptop",1000,3)
-item2.pay_rate = 0.7
-item2.apply_discount()
-print(item2.price)
+        for item in items:
+            #print(item)
+            Item(
+                name=item.get('name'),
+                price=float(item.get('price')),
+                quantitiy=float(item.get('quantity'))
+            )
 
 
 
-#print(Item.__dict__) #All the atributes at class level
-#print(item1.__dict__) #All the atribute for instance level
 
+
+    def __repr__(self):
+        return f"Item('{self.name}',{self.price},{self.quantitiy})"
+
+
+Item.instantiate_from_csv()
+print(Item.all)
+
+#print(Item.all)
+'''
+for instance in Item.all:
+    print(instance.name)
+    
+'''
