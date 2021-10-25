@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa720200-63c7-48c7-8279-34fc281b8d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/rough_creation_one_hour_thirty/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/rough_creation_one_hour_thirty/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/rough_creation_one_hour_thirty/mainthirdthirty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/keyboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/mainfirstthirty.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/rough_creation_one_hour_thirty/mainfirstthirty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/mainsecondthirty.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/rough_creation_one_hour_thirty/mainsecondthirty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +193,7 @@
       <workItem from="1634079372798" duration="384000" />
       <workItem from="1634414238056" duration="6000" />
       <workItem from="1635024820726" duration="1627000" />
-      <workItem from="1635045669940" duration="13346000" />
+      <workItem from="1635045669940" duration="14036000" />
     </task>
     <servers />
   </component>
@@ -455,7 +448,7 @@
     <SUITE FILE_PATH="coverage/PythonPractise$NonPublicMethord.coverage" NAME="NonPublicMethord Coverage Results" MODIFIED="1633221645817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Nike/OopsConcepts" />
     <SUITE FILE_PATH="coverage/PythonPractise$BinarySearch.coverage" NAME="BinarySearch Coverage Results" MODIFIED="1633544363272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Nike/Practice" />
     <SUITE FILE_PATH="coverage/PythonPractise$Encapsulation.coverage" NAME="Encapsulation Coverage Results" MODIFIED="1633215085478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interview/Nike/OopsConcepts" />
-    <SUITE FILE_PATH="coverage/PythonPractise$main.coverage" NAME="main Coverage Results" MODIFIED="1635142754841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project" />
+    <SUITE FILE_PATH="coverage/PythonPractise$main.coverage" NAME="main Coverage Results" MODIFIED="1635144739411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming/organizing_project" />
     <SUITE FILE_PATH="coverage/PythonPractise$Palindrome.coverage" NAME="Palindrome Coverage Results" MODIFIED="1632285829007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractise$mainsecondthirty.coverage" NAME="mainsecondthirty Coverage Results" MODIFIED="1635132256892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
     <SUITE FILE_PATH="coverage/PythonPractise$binarySearch.coverage" NAME="binarySearch Coverage Results" MODIFIED="1632717530313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setTwoProblem" />

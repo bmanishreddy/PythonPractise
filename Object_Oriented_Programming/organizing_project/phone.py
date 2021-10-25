@@ -1,6 +1,7 @@
 from item import Item
 
 class Phone(Item):
+    pay_rate = 0.50
     #all =[]
     def __init__(self, name: str, price: float, quantitiy=0, broken_phones=0):
 
